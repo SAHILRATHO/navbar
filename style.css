@@ -1,0 +1,77 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}.main{
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;  
+    background-color: rgb(197, 3, 3);
+    justify-content: space-between; /* logo and ul space in hader*/
+}
+.logo{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 0 25px; /* space in logo */
+    font-weight: bold;
+    list-style-type: none;
+    margin-bottom: 0rem;
+    
+}
+nav ul{
+    margin-bottom: 0rem;/* center in navbar font */
+}
+nav ul li{
+   
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+}
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+    transition: .4s;
+}
+.tbox{
+    margin: 10px 10px;
+    padding: 5px;
+    width: 200px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:25px;
+}
+span
+{
+    color: red;
+}
+.left{
+    margin: 0 60px; /* space in <p> */
+}
+p{
+    font:10px;
+    text-decoration: solid;
+    margin: 0 60px; /* space in <p> */
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}    
+.btn
+{
+        color: black; 
+}
+
